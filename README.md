@@ -11,3 +11,12 @@ The driver chip, SSD1306 can communicate in two ways: I2C or SPI. The OLED itsel
 The power requirements depend a little on how much of the display is lit but on average the display uses about 40mA from the 3.3V supply. Built into the OLED driver is a simple switch-cap charge pump that turns 3.3v-5v into a high voltage drive for the OLEDs.
 
 [We have a detailed tutorial and example code in the form of an Arduino library](http://learn.adafruit.com/monochrome-oled-breakouts) for text and graphics. You'll need a microcontroller with more than 1K of RAM since the display must be buffered. The library can print text, bitmaps, pixels, rectangles, circles and lines. It uses 1K of RAM since it needs to buffer the entire display but its very fast! The code is simple to adapt to any other microcontroller.
+
+## License
+Adafruit invests time and resources providing this open source design,
+please support Adafruit and open-source hardware by purchasing
+products from Adafruit!
+
+Designed by Adafruit Industries.
+Creative Commons Attribution, Share-Alike license, check license.txt for more information
+All text above must be included in any redistribution
